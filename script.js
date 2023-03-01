@@ -84,3 +84,123 @@
 
 // let arr = [1, 2, 3, 4, 5];
 // console.log(arr.join('-'));
+
+// task 15
+// let str = 'london';
+// string = str.slice(0, -1) + str.slice(-1).toUpperCase();
+// console.log(string);
+
+// task 16
+// let str = 'london';
+// string = str.slice(0,2).toUpperCase() + str.slice(2);
+// console.log(string);
+
+// task 17
+// let str = 'London';
+// string = str.slice(0,1).toLowerCase() + str.slice(1);
+// console.log(string);
+
+// task 18
+
+// let str = 'word1 word2 word3';
+// let arr = str.split(' ');
+// for (let i = 0; i < arr.length; i++) {
+//     arr[i] = arr[i].slice(0,1).toUpperCase() + arr[i].slice(1);
+// }
+// let res = arr.join(' ');
+// console.log(res);
+
+// task 19
+
+// function toUpper(str) {
+//     let arr = str.split('_');
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = arr[i].slice(0, 1).toUpperCase() + arr[i].slice(1);
+//     }
+//     return arr.join('');
+// }
+//
+// console.log(toUpper('var_test_text'));
+
+// task 20
+
+// function changeStr(str) {
+//     let arr = str.split('_');
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = arr[i].slice(0, 1).toUpperCase() + arr[i].slice(1);
+//     }
+//     let newStr = arr.join('');
+//     return newStr.slice(0,1).toLowerCase() + newStr.slice(1);
+// }
+//
+// console.log(changeStr('var_test_text'));
+
+// task 21
+
+// let str = 'This is a nice day';
+//
+// function reverseStr(str) {
+//     return str.split(' ').reverse().join(' ');
+// }
+//
+// console.log(reverseStr(str));
+
+// task 22
+
+// let num = 12345;
+// let str = String(num);
+// let arr = str.split('');
+// let sum = 0;
+//
+// for (let digit of arr) {
+//     sum += +digit;
+// }
+//
+// console.log(sum);
+
+// task 23
+
+// let num = 12345;
+// let arr = String(num).split('');
+// let sum = 0;
+//
+// for (let digit of arr) {
+//     sum += +digit;
+// }
+//
+// console.log(sum);
+
+// task 24
+
+// let num = 12345;
+// let arr = String(num).split('');
+// let sum = 0;
+//
+// for (let digit of arr) {
+//     sum += Number(digit);
+// }
+//
+// console.log(sum);
+
+// task 25
+// let num = 12345;
+// let arr = String(num).split('');
+// let sum = 0;
+//
+// for (let digit of arr) {
+//     sum += Number(digit);
+// }
+//
+// console.log(sum);
+
+// task 26
+
+// let num = 12345;
+// let arr = String(num).split('');
+// let prod = 1;
+//
+// for (let digit of arr) {
+//     prod *= +digit;
+// }
+//
+// console.log(prod);
